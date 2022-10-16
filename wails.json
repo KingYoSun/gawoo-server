@@ -1,0 +1,16 @@
+{
+  "name": "gawoo-server",
+  "outputfilename": "gawoo-server",
+  "assetdir": "frontend/out",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run export",
+  "frontend:dev": "echo dev",
+  "frontend:dev:build": "echo dev",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "http://localhost:3000",
+  "wailsjsdir": "frontend/wailsjs",
+  "author": {
+    "name": "KingYoSun",
+    "email": "nocking257838@gmail.com"
+  }
+}
